@@ -1,0 +1,46 @@
+body{
+    
+}
+#container{
+    background: url('clock.png') no-repeat center center/cover;
+    /* border: red solid 2px; */
+    position: absolute;
+    width: 80vh;
+    height: 80vh;
+    left: 30%;
+    
+}
+#hour{
+    position: relative;
+    width: 2%;
+    height: 30%;
+    background-color: rgb(228, 196, 13);
+    left: 49%;
+    opacity: 0.8;
+    top: 20%;
+    transform-origin : bottom ;
+    border-radius: 13px;
+    
+}
+#mint{
+    position: relative;
+    width: 1.5%;
+    height: 36%;
+    left: 49.2%;
+    background-color: rgb(37, 4, 224);
+    opacity: 0.8;
+    top: -15%;
+    transform-origin : bottom ;
+    border-radius: 13px;
+}
+#second{
+    position: relative;
+    width: 1%;
+    height: 40%;
+    left: 49.5%;
+    top: -54%;
+    background-color: rgb(189, 17, 17);
+    opacity: 0.8;
+    transform-origin : bottom ;
+    border-radius: 13px;
+}
